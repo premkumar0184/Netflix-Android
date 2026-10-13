@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="netflix_red">#E50914</color>
+    <color name="netflix_dark_red">#B9090B</color>
+    <color name="netflix_blood_red">#590101</color>
+    <color name="hawkins_base_background">#141414</color>
+    <color name="hawkins_base_surface">#1F1F1F</color>
+    <color name="hawkins_eclipse_background">#000000</color>
+    <color name="hawkins_eclipse_surface">#121212</color>
+</resources>

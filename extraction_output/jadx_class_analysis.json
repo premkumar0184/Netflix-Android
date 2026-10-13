@@ -1,0 +1,191 @@
+{
+  "classes_discovered_count": 62,
+  "target_packages": [
+    "com.netflix.hawkins.consumer.tokens",
+    "com.netflix.hawkins.consumer.component.button",
+    "com.netflix.hawkins.consumer.component.avatar",
+    "com.netflix.hawkins.consumer.component.chip",
+    "com.netflix.hawkins.consumer.component.tag",
+    "com.netflix.hawkins.consumer.component.divider",
+    "com.netflix.hawkins.consumer.component.dialog",
+    "com.netflix.hawkins.consumer.component.sheet",
+    "com.netflix.hawkins.consumer.component.input",
+    "com.netflix.hawkins.consumer.icons",
+    "com.netflix.mediaclient.ui.billboard.api",
+    "com.netflix.mediaclient.ui.home.apistarcourt"
+  ],
+  "classes_decompiled_count": 13,
+  "decompiled_classes": [
+    "com.netflix.hawkins.consumer.tokens.HawkinsTheme",
+    "com.netflix.hawkins.consumer.tokens.Appearance",
+    "com.netflix.hawkins.consumer.component.button.HawkinsButtonType",
+    "com.netflix.hawkins.consumer.component.button.HawkinsButtonSize",
+    "com.netflix.hawkins.consumer.component.avatar.HawkinsAvatarShape",
+    "com.netflix.hawkins.consumer.component.avatar.HawkinsAvatarSize",
+    "com.netflix.hawkins.consumer.component.chip.HawkinsChipType",
+    "com.netflix.hawkins.consumer.component.chip.HawkinsChipSize",
+    "com.netflix.hawkins.consumer.component.tag.HawkinsTagType",
+    "com.netflix.hawkins.consumer.component.tag.HawkinsTagSize",
+    "com.netflix.hawkins.consumer.component.tag.HawkinsTagAudioVideoType",
+    "com.netflix.hawkins.consumer.component.divider.HawkinsDividerEmphasis",
+    "com.netflix.hawkins.consumer.icons.IconSize"
+  ],
+  "enums_extracted": {
+    "com.netflix.hawkins.consumer.tokens.HawkinsTheme": [
+      "D",
+      "B",
+      "A",
+      "Base",
+      "Eclipse",
+      "Debug"
+    ],
+    "com.netflix.hawkins.consumer.tokens.Appearance": [
+      "Dark",
+      "Light"
+    ],
+    "com.netflix.hawkins.consumer.component.button.HawkinsButtonType": [
+      "Primary",
+      "Secondary",
+      "Tertiary",
+      "Supplemental",
+      "Brand",
+      "Destructive"
+    ],
+    "com.netflix.hawkins.consumer.component.button.HawkinsButtonSize": [
+      "Lo/bah;",
+      "F",
+      "Small",
+      "Standard",
+      "Large"
+    ],
+    "com.netflix.hawkins.consumer.component.avatar.HawkinsAvatarShape": [
+      "Circle",
+      "Square"
+    ],
+    "com.netflix.hawkins.consumer.component.avatar.HawkinsAvatarSize": [
+      "Lo/bah;",
+      "F",
+      "ExtraSmall",
+      "Small",
+      "Medium",
+      "Large",
+      "ExtraLarge"
+    ],
+    "com.netflix.hawkins.consumer.component.chip.HawkinsChipType": [
+      "Border",
+      "Borderless"
+    ],
+    "com.netflix.hawkins.consumer.component.chip.HawkinsChipSize": [
+      "Small",
+      "Standard"
+    ],
+    "com.netflix.hawkins.consumer.component.tag.HawkinsTagType": [
+      "Fill",
+      "Standard",
+      "Supplemental",
+      "Offers"
+    ],
+    "com.netflix.hawkins.consumer.component.tag.HawkinsTagSize": [
+      "ExtraSmall",
+      "Small"
+    ],
+    "com.netflix.hawkins.consumer.component.tag.HawkinsTagAudioVideoType": [
+      "Lo/eka;",
+      "Lo/eka;",
+      "AudioDescription",
+      "DolbyAtmos",
+      "DolbyVision",
+      "DolbyVisionAtmos",
+      "SpatialAudio",
+      "Sdh",
+      "Hd",
+      "Hdr",
+      "FourK",
+      "FourKHdr",
+      "FiveOne",
+      "UltraHd",
+      "Hdr10Plus"
+    ],
+    "com.netflix.hawkins.consumer.component.divider.HawkinsDividerEmphasis": [
+      "High",
+      "Low"
+    ],
+    "com.netflix.hawkins.consumer.icons.IconSize": [
+      "Lo/bah;",
+      "F",
+      "Small",
+      "Standard",
+      "Large",
+      "Jumbo"
+    ]
+  },
+  "theme_token_structures": {
+    "component_contracts": [
+      "Typographies",
+      "Tag",
+      "Button",
+      "Banner",
+      "ButtonIcon",
+      "Chip",
+      "InputPinCode",
+      "Input",
+      "Dialog",
+      "InputPhoneNumber",
+      "InputTextArea",
+      "Switch",
+      "Sheet",
+      "Tooltip",
+      "Toast",
+      "ButtonCountdown",
+      "Avatar",
+      "ActionListItem",
+      "Checkbox",
+      "ButtonIconStacked",
+      "Chips",
+      "Divider",
+      "Placeholder",
+      "Loader",
+      "Popover",
+      "Progress",
+      "Tabs",
+      "TabItem",
+      "StaticList",
+      "TextLink"
+    ],
+    "color_parameter_samples": [
+      "surface=\", strG, \", surfaceKnob=\", strG2, \", surfaceTrack=\"",
+      "border=\", strG, \", foreground=\", strG2, \", surface=\"",
+      "foreground=\", strG, \", foregroundDisabled=\", strG2, \", foregroundPressed=\"",
+      "borderSupplemental=\", strG, \", borderSupplementalDisabled=\", strG2, \", borderSupplementalPressed=\"",
+      "foreground=\", strG, \", foregroundDescription=\", strG2, \", foregroundDisabled=\"",
+      "borderAndroid=\", strG, \", borderAndroidDisabled=\", strG2, \", foregroundAndroid=\"",
+      "border=\", strG, \", borderDisabled=\", strG2, \", borderError=\"",
+      "borderPlaceholder=\", strG, \", foregroundPlaceholder=\", strG2, \", surfacePlaceholder=\"",
+      "foregroundPrimary=\", strG, \", foregroundPrimaryDisabled=\", strG2, \", foregroundPrimaryPressed=\"",
+      "borderBrand=\", strG, \", borderBrandDisabled=\", strG2, \", borderBrandPressed=\""
+    ],
+    "dimension_parameter_samples": [
+      "spaceBetween=\", C3770bah.d(this.a",
+      "borderRadius=\", strD, \", borderRadiusSmall=\", strD2, \", borderWidth=\"",
+      "borderRadius=\", strD, \", maxWidth=\", strD2, \", spaceBetweenAccessoryText=\"",
+      "borderRadius=\", strD, \", spaceAnchor=\", strD2, \", spaceBetweenNotchAnchor=\"",
+      "borderRadius=\", strD, \", borderWidth=\", strD2, \", space=\"",
+      "spaceBetweenIconText=\", strD, \", spaceBottom=\", strD2, \", spaceHorizontal=\"",
+      "borderRadiusExtraSmall=\", strD, \", borderRadiusSmall=\", strD2, \", borderWidth=\"",
+      "spaceBetween=\", C3770bah.d(this.b",
+      "borderRadius=\", strD, \", spaceBetweenIconText=\", strD2, \", spaceBottom=\"",
+      "borderRadius=\", strD, \", borderRadiusSurface=\", strD2, \", space=\""
+    ],
+    "typography_parameter_samples": [
+      "textBody=\"",
+      "textDescription=\"",
+      "textLarge=\"",
+      "textPlaceholderExtraLarge=\"",
+      "textLabel=\"",
+      "textExtraSmall=\"",
+      "text=\"",
+      "textHeadline=\"",
+      "textFilled=\""
+    ]
+  }
+}

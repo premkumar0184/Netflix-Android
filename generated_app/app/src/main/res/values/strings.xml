@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Netflix</string>
+    <string name="tab_home">Home</string>
+    <string name="tab_games">Games</string>
+    <string name="tab_hot_and_new">New &amp; Hot</string>
+    <string name="tab_my_netflix">My Netflix</string>
+    <string name="button_play">Play</string>
+    <string name="button_my_list">My List</string>
+    <string name="button_info">Info</string>
+    <string name="button_share">Share</string>
+    <string name="button_download">Download</string>
+    <string name="section_trending">Trending Now</string>
+    <string name="section_top_10">Top 10 TV Shows in Your Country Today</string>
+    <string name="section_continue_watching">Continue Watching for Prem</string>
+    <string name="search_hint">Search movies, shows, genres...</string>
+    <string name="who_is_watching">Who\'s Watching?</string>
+    <string name="manage_profiles">Manage Profiles</string>
+</resources>

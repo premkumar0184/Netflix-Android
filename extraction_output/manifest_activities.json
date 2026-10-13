@@ -1,0 +1,3042 @@
+{
+  "package": "com.netflix.mediaclient",
+  "total_activities": 97,
+  "ui_activities_count": 12,
+  "entrypoint_activities_count": 4,
+  "services_count": 20,
+  "receivers_count": 15,
+  "entrypoints": [
+    {
+      "name": ".ui.launch.UIWebViewActivity",
+      "exported": "true",
+      "theme": "@style/APKTOOL_RENAMED_0x7f150535",
+      "screen_orientation": "",
+      "launch_mode": "singleTask",
+      "window_soft_input_mode": "",
+      "is_launcher": true,
+      "intent_filters": [
+        {
+          "actions": [
+            "android.intent.action.MAIN"
+          ],
+          "categories": [
+            "android.intent.category.LAUNCHER"
+          ],
+          "data": []
+        }
+      ]
+    },
+    {
+      "name": ".ui.launch.UIWebViewTabletActivity",
+      "exported": "true",
+      "theme": "@style/APKTOOL_RENAMED_0x7f150535",
+      "screen_orientation": "",
+      "launch_mode": "singleTask",
+      "window_soft_input_mode": "",
+      "is_launcher": true,
+      "intent_filters": [
+        {
+          "actions": [
+            "android.intent.action.MAIN"
+          ],
+          "categories": [
+            "android.intent.category.LAUNCHER"
+          ],
+          "data": []
+        }
+      ]
+    },
+    {
+      "name": ".acquisition.screens.signupContainer.SignupNativeDeepLinkActivity",
+      "exported": "true",
+      "theme": "@style/APKTOOL_RENAMED_0x7f15054d",
+      "screen_orientation": "",
+      "launch_mode": "",
+      "window_soft_input_mode": "",
+      "is_launcher": false,
+      "intent_filters": [
+        {
+          "actions": [
+            "android.intent.action.VIEW"
+          ],
+          "categories": [
+            "android.intent.category.DEFAULT",
+            "android.intent.category.BROWSABLE"
+          ],
+          "data": [
+            {
+              "scheme": "nflx",
+              "host": "www.netflix.com",
+              "path": null
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/confirmpageinfosignout"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/loginfromregistration"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": ".ui.launch.NetflixComLaunchActivity",
+      "exported": "true",
+      "theme": "@style/APKTOOL_RENAMED_0x7f1505fb",
+      "screen_orientation": "",
+      "launch_mode": "singleTask",
+      "window_soft_input_mode": "",
+      "is_launcher": false,
+      "intent_filters": [
+        {
+          "actions": [
+            "android.intent.action.VIEW"
+          ],
+          "categories": [
+            "android.intent.category.DEFAULT",
+            "android.intent.category.BROWSABLE"
+          ],
+          "data": [
+            {
+              "scheme": "http",
+              "host": "www.netflix.com",
+              "path": null
+            },
+            {
+              "scheme": "https",
+              "host": "www.netflix.com",
+              "path": null
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/browse"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/.*/browse"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/browse/genre/.*"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/.*/browse/genre/.*"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/browse/coming-soon"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/browse/my-list"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/.*/browse/coming-soon"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/browse/audio-description"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/.*/browse/audio-description"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/specials/.*"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/Kids/title/.*"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/Kids/character/.*"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/game"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/game/.*"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/.*/game/.*"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/games"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/games/.*"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/.*/games/.*"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/title/.*"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/.*/title/.*"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/watch/.*"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/.*/watch/.*"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/nmwatch/.*"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/.*/nmwatch/.*"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/clips"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/Clips"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/CLIPS"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/.*/clips"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/.*/Clips"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/.*/CLIPS"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/clips/.*"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/Clips/.*"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/CLIPS/.*"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/search"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/search/.*"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/.*/search"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/.*/search/.*"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/add/.*"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/.*/add/.*"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/download/.*"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/.*/download/.*"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/sync/.*"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/.*/sync/.*"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/profiles"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/.*/profiles"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/profiles/icon.*"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/.*/profiles/icon.*"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/mobilehelp"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/like/.*"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/.*/like/.*"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/dislike/.*"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/.*/dislike/.*"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/love/.*"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/.*/love/.*"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/notification/.*"
+            },
+            {
+              "scheme": "http",
+              "host": "www.netflix.com",
+              "path": "/profiles/icon"
+            },
+            {
+              "scheme": "https",
+              "host": "www.netflix.com",
+              "path": "/profiles/icon"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/extras/.*"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/extrasFeed"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/extrasFeed/.*"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/extrasfeed"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/extrasfeed/.*"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/remind-me/.*"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/account/signup"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/account/profiles"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/hook/.*"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/oAuth2Init"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/oAuth2Login"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/youraccount"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/youraccountlite"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/yourAccount"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/yourAccountLite"
+            }
+          ]
+        },
+        {
+          "actions": [
+            "android.intent.action.VIEW"
+          ],
+          "categories": [
+            "android.intent.category.DEFAULT",
+            "android.intent.category.BROWSABLE"
+          ],
+          "data": [
+            {
+              "scheme": "http",
+              "host": "www.netflix.com",
+              "path": null
+            },
+            {
+              "scheme": "https",
+              "host": "www.netflix.com",
+              "path": null
+            },
+            {
+              "scheme": "nflx",
+              "host": "www.netflix.com",
+              "path": null
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/Browse"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/browse"
+            }
+          ]
+        },
+        {
+          "actions": [
+            "android.intent.action.VIEW"
+          ],
+          "categories": [
+            "android.intent.category.DEFAULT",
+            "android.intent.category.BROWSABLE"
+          ],
+          "data": [
+            {
+              "scheme": "http",
+              "host": null,
+              "path": null
+            },
+            {
+              "scheme": "https",
+              "host": null,
+              "path": null
+            },
+            {
+              "scheme": null,
+              "host": "app.netflix.com",
+              "path": null
+            },
+            {
+              "scheme": null,
+              "host": "qr.netflix.com",
+              "path": null
+            },
+            {
+              "scheme": null,
+              "host": "games.netflix.com",
+              "path": null
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/connection/.*"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/C/.*"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/oAuth2Init"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/438c60eb"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/bU4kXkYg/.*"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/Browse"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/browse"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/invite/.*"
+            }
+          ]
+        },
+        {
+          "actions": [
+            "android.intent.action.VIEW"
+          ],
+          "categories": [
+            "android.intent.category.DEFAULT",
+            "android.intent.category.BROWSABLE"
+          ],
+          "data": [
+            {
+              "scheme": "http",
+              "host": "msg.netflix.com",
+              "path": null
+            },
+            {
+              "scheme": "https",
+              "host": "msg.netflix.com",
+              "path": null
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "ui_activities": [
+    {
+      "name": ".ui.launch.UIWebViewActivity",
+      "exported": "true",
+      "theme": "@style/APKTOOL_RENAMED_0x7f150535",
+      "screen_orientation": "",
+      "launch_mode": "singleTask",
+      "window_soft_input_mode": "",
+      "is_launcher": true,
+      "intent_filters": [
+        {
+          "actions": [
+            "android.intent.action.MAIN"
+          ],
+          "categories": [
+            "android.intent.category.LAUNCHER"
+          ],
+          "data": []
+        }
+      ]
+    },
+    {
+      "name": ".ui.launch.UIWebViewTabletActivity",
+      "exported": "true",
+      "theme": "@style/APKTOOL_RENAMED_0x7f150535",
+      "screen_orientation": "",
+      "launch_mode": "singleTask",
+      "window_soft_input_mode": "",
+      "is_launcher": true,
+      "intent_filters": [
+        {
+          "actions": [
+            "android.intent.action.MAIN"
+          ],
+          "categories": [
+            "android.intent.category.LAUNCHER"
+          ],
+          "data": []
+        }
+      ]
+    },
+    {
+      "name": ".acquisition.screens.webSignup.SignupActivity",
+      "exported": "false",
+      "theme": "@style/APKTOOL_RENAMED_0x7f15054b",
+      "screen_orientation": "portrait",
+      "launch_mode": "",
+      "window_soft_input_mode": "",
+      "is_launcher": false,
+      "intent_filters": []
+    },
+    {
+      "name": ".acquisition.screens.webSignup.SignupTabletActivity",
+      "exported": "false",
+      "theme": "@style/APKTOOL_RENAMED_0x7f15054b",
+      "screen_orientation": "",
+      "launch_mode": "",
+      "window_soft_input_mode": "",
+      "is_launcher": false,
+      "intent_filters": []
+    },
+    {
+      "name": ".acquisition.screens.signupContainer.SignupNativeActivity",
+      "exported": "true",
+      "theme": "@style/APKTOOL_RENAMED_0x7f15054d",
+      "screen_orientation": "portrait",
+      "launch_mode": "singleTask",
+      "window_soft_input_mode": "adjustResize",
+      "is_launcher": false,
+      "intent_filters": []
+    },
+    {
+      "name": ".acquisition.screens.signupContainer.SignupNativeTabletActivity",
+      "exported": "false",
+      "theme": "@style/APKTOOL_RENAMED_0x7f15054d",
+      "screen_orientation": "",
+      "launch_mode": "singleTask",
+      "window_soft_input_mode": "",
+      "is_launcher": false,
+      "intent_filters": []
+    },
+    {
+      "name": ".acquisition.screens.signupContainer.SignupNativeDeepLinkActivity",
+      "exported": "true",
+      "theme": "@style/APKTOOL_RENAMED_0x7f15054d",
+      "screen_orientation": "",
+      "launch_mode": "",
+      "window_soft_input_mode": "",
+      "is_launcher": false,
+      "intent_filters": [
+        {
+          "actions": [
+            "android.intent.action.VIEW"
+          ],
+          "categories": [
+            "android.intent.category.DEFAULT",
+            "android.intent.category.BROWSABLE"
+          ],
+          "data": [
+            {
+              "scheme": "nflx",
+              "host": "www.netflix.com",
+              "path": null
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/confirmpageinfosignout"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/loginfromregistration"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": ".ui.launch.NetflixComLaunchActivity",
+      "exported": "true",
+      "theme": "@style/APKTOOL_RENAMED_0x7f1505fb",
+      "screen_orientation": "",
+      "launch_mode": "singleTask",
+      "window_soft_input_mode": "",
+      "is_launcher": false,
+      "intent_filters": [
+        {
+          "actions": [
+            "android.intent.action.VIEW"
+          ],
+          "categories": [
+            "android.intent.category.DEFAULT",
+            "android.intent.category.BROWSABLE"
+          ],
+          "data": [
+            {
+              "scheme": "http",
+              "host": "www.netflix.com",
+              "path": null
+            },
+            {
+              "scheme": "https",
+              "host": "www.netflix.com",
+              "path": null
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/browse"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/.*/browse"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/browse/genre/.*"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/.*/browse/genre/.*"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/browse/coming-soon"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/browse/my-list"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/.*/browse/coming-soon"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/browse/audio-description"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/.*/browse/audio-description"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/specials/.*"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/Kids/title/.*"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/Kids/character/.*"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/game"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/game/.*"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/.*/game/.*"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/games"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/games/.*"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/.*/games/.*"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/title/.*"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/.*/title/.*"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/watch/.*"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/.*/watch/.*"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/nmwatch/.*"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/.*/nmwatch/.*"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/clips"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/Clips"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/CLIPS"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/.*/clips"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/.*/Clips"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/.*/CLIPS"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/clips/.*"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/Clips/.*"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/CLIPS/.*"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/search"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/search/.*"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/.*/search"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/.*/search/.*"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/add/.*"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/.*/add/.*"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/download/.*"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/.*/download/.*"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/sync/.*"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/.*/sync/.*"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/profiles"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/.*/profiles"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/profiles/icon.*"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/.*/profiles/icon.*"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/mobilehelp"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/like/.*"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/.*/like/.*"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/dislike/.*"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/.*/dislike/.*"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/love/.*"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/.*/love/.*"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/notification/.*"
+            },
+            {
+              "scheme": "http",
+              "host": "www.netflix.com",
+              "path": "/profiles/icon"
+            },
+            {
+              "scheme": "https",
+              "host": "www.netflix.com",
+              "path": "/profiles/icon"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/extras/.*"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/extrasFeed"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/extrasFeed/.*"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/extrasfeed"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/extrasfeed/.*"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/remind-me/.*"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/account/signup"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/account/profiles"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/hook/.*"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/oAuth2Init"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/oAuth2Login"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/youraccount"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/youraccountlite"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/yourAccount"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/yourAccountLite"
+            }
+          ]
+        },
+        {
+          "actions": [
+            "android.intent.action.VIEW"
+          ],
+          "categories": [
+            "android.intent.category.DEFAULT",
+            "android.intent.category.BROWSABLE"
+          ],
+          "data": [
+            {
+              "scheme": "http",
+              "host": "www.netflix.com",
+              "path": null
+            },
+            {
+              "scheme": "https",
+              "host": "www.netflix.com",
+              "path": null
+            },
+            {
+              "scheme": "nflx",
+              "host": "www.netflix.com",
+              "path": null
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/Browse"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/browse"
+            }
+          ]
+        },
+        {
+          "actions": [
+            "android.intent.action.VIEW"
+          ],
+          "categories": [
+            "android.intent.category.DEFAULT",
+            "android.intent.category.BROWSABLE"
+          ],
+          "data": [
+            {
+              "scheme": "http",
+              "host": null,
+              "path": null
+            },
+            {
+              "scheme": "https",
+              "host": null,
+              "path": null
+            },
+            {
+              "scheme": null,
+              "host": "app.netflix.com",
+              "path": null
+            },
+            {
+              "scheme": null,
+              "host": "qr.netflix.com",
+              "path": null
+            },
+            {
+              "scheme": null,
+              "host": "games.netflix.com",
+              "path": null
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/connection/.*"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/C/.*"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/oAuth2Init"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/438c60eb"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/bU4kXkYg/.*"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/Browse"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/browse"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/invite/.*"
+            }
+          ]
+        },
+        {
+          "actions": [
+            "android.intent.action.VIEW"
+          ],
+          "categories": [
+            "android.intent.category.DEFAULT",
+            "android.intent.category.BROWSABLE"
+          ],
+          "data": [
+            {
+              "scheme": "http",
+              "host": "msg.netflix.com",
+              "path": null
+            },
+            {
+              "scheme": "https",
+              "host": "msg.netflix.com",
+              "path": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": ".ui.player.PlayerActivity",
+      "exported": "false",
+      "theme": "@style/APKTOOL_RENAMED_0x7f150549",
+      "screen_orientation": "sensorLandscape",
+      "launch_mode": "singleTask",
+      "window_soft_input_mode": "",
+      "is_launcher": false,
+      "intent_filters": []
+    },
+    {
+      "name": ".ui.launch.LaunchActivity",
+      "exported": "false",
+      "theme": "@style/APKTOOL_RENAMED_0x7f150535",
+      "screen_orientation": "",
+      "launch_mode": "singleTask",
+      "window_soft_input_mode": "",
+      "is_launcher": false,
+      "intent_filters": []
+    },
+    {
+      "name": ".ui.diagnosis.DiagnosisActivity",
+      "exported": "false",
+      "theme": "@style/APKTOOL_RENAMED_0x7f150537",
+      "screen_orientation": "",
+      "launch_mode": "",
+      "window_soft_input_mode": "",
+      "is_launcher": false,
+      "intent_filters": []
+    },
+    {
+      "name": "androidx.compose.ui.tooling.PreviewActivity",
+      "exported": "true",
+      "theme": "",
+      "screen_orientation": "",
+      "launch_mode": "",
+      "window_soft_input_mode": "",
+      "is_launcher": false,
+      "intent_filters": []
+    }
+  ],
+  "all_activities": [
+    {
+      "name": ".ui.launch.UIWebViewActivity",
+      "exported": "true",
+      "theme": "@style/APKTOOL_RENAMED_0x7f150535",
+      "screen_orientation": "",
+      "launch_mode": "singleTask",
+      "window_soft_input_mode": "",
+      "is_launcher": true,
+      "intent_filters": [
+        {
+          "actions": [
+            "android.intent.action.MAIN"
+          ],
+          "categories": [
+            "android.intent.category.LAUNCHER"
+          ],
+          "data": []
+        }
+      ]
+    },
+    {
+      "name": ".ui.launch.UIWebViewTabletActivity",
+      "exported": "true",
+      "theme": "@style/APKTOOL_RENAMED_0x7f150535",
+      "screen_orientation": "",
+      "launch_mode": "singleTask",
+      "window_soft_input_mode": "",
+      "is_launcher": true,
+      "intent_filters": [
+        {
+          "actions": [
+            "android.intent.action.MAIN"
+          ],
+          "categories": [
+            "android.intent.category.LAUNCHER"
+          ],
+          "data": []
+        }
+      ]
+    },
+    {
+      "name": "o.lBG",
+      "exported": "false",
+      "theme": "",
+      "screen_orientation": "",
+      "launch_mode": "singleTop",
+      "window_soft_input_mode": "",
+      "is_launcher": false,
+      "intent_filters": []
+    },
+    {
+      "name": "o.lJy",
+      "exported": "false",
+      "theme": "@android:style/Theme.Translucent.NoTitleBar",
+      "screen_orientation": "",
+      "launch_mode": "",
+      "window_soft_input_mode": "",
+      "is_launcher": false,
+      "intent_filters": []
+    },
+    {
+      "name": ".acquisition.screens.webSignup.SignupActivity",
+      "exported": "false",
+      "theme": "@style/APKTOOL_RENAMED_0x7f15054b",
+      "screen_orientation": "portrait",
+      "launch_mode": "",
+      "window_soft_input_mode": "",
+      "is_launcher": false,
+      "intent_filters": []
+    },
+    {
+      "name": ".acquisition.screens.webSignup.SignupTabletActivity",
+      "exported": "false",
+      "theme": "@style/APKTOOL_RENAMED_0x7f15054b",
+      "screen_orientation": "",
+      "launch_mode": "",
+      "window_soft_input_mode": "",
+      "is_launcher": false,
+      "intent_filters": []
+    },
+    {
+      "name": ".acquisition.screens.signupContainer.SignupNativeActivity",
+      "exported": "true",
+      "theme": "@style/APKTOOL_RENAMED_0x7f15054d",
+      "screen_orientation": "portrait",
+      "launch_mode": "singleTask",
+      "window_soft_input_mode": "adjustResize",
+      "is_launcher": false,
+      "intent_filters": []
+    },
+    {
+      "name": ".acquisition.screens.signupContainer.SignupNativeTabletActivity",
+      "exported": "false",
+      "theme": "@style/APKTOOL_RENAMED_0x7f15054d",
+      "screen_orientation": "",
+      "launch_mode": "singleTask",
+      "window_soft_input_mode": "",
+      "is_launcher": false,
+      "intent_filters": []
+    },
+    {
+      "name": ".acquisition.screens.signupContainer.SignupNativeDeepLinkActivity",
+      "exported": "true",
+      "theme": "@style/APKTOOL_RENAMED_0x7f15054d",
+      "screen_orientation": "",
+      "launch_mode": "",
+      "window_soft_input_mode": "",
+      "is_launcher": false,
+      "intent_filters": [
+        {
+          "actions": [
+            "android.intent.action.VIEW"
+          ],
+          "categories": [
+            "android.intent.category.DEFAULT",
+            "android.intent.category.BROWSABLE"
+          ],
+          "data": [
+            {
+              "scheme": "nflx",
+              "host": "www.netflix.com",
+              "path": null
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/confirmpageinfosignout"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/loginfromregistration"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": ".ui.launch.NetflixComLaunchActivity",
+      "exported": "true",
+      "theme": "@style/APKTOOL_RENAMED_0x7f1505fb",
+      "screen_orientation": "",
+      "launch_mode": "singleTask",
+      "window_soft_input_mode": "",
+      "is_launcher": false,
+      "intent_filters": [
+        {
+          "actions": [
+            "android.intent.action.VIEW"
+          ],
+          "categories": [
+            "android.intent.category.DEFAULT",
+            "android.intent.category.BROWSABLE"
+          ],
+          "data": [
+            {
+              "scheme": "http",
+              "host": "www.netflix.com",
+              "path": null
+            },
+            {
+              "scheme": "https",
+              "host": "www.netflix.com",
+              "path": null
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/browse"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/.*/browse"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/browse/genre/.*"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/.*/browse/genre/.*"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/browse/coming-soon"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/browse/my-list"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/.*/browse/coming-soon"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/browse/audio-description"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/.*/browse/audio-description"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/specials/.*"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/Kids/title/.*"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/Kids/character/.*"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/game"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/game/.*"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/.*/game/.*"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/games"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/games/.*"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/.*/games/.*"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/title/.*"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/.*/title/.*"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/watch/.*"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/.*/watch/.*"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/nmwatch/.*"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/.*/nmwatch/.*"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/clips"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/Clips"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/CLIPS"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/.*/clips"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/.*/Clips"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/.*/CLIPS"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/clips/.*"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/Clips/.*"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/CLIPS/.*"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/search"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/search/.*"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/.*/search"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/.*/search/.*"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/add/.*"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/.*/add/.*"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/download/.*"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/.*/download/.*"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/sync/.*"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/.*/sync/.*"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/profiles"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/.*/profiles"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/profiles/icon.*"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/.*/profiles/icon.*"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/mobilehelp"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/like/.*"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/.*/like/.*"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/dislike/.*"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/.*/dislike/.*"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/love/.*"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/.*/love/.*"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/notification/.*"
+            },
+            {
+              "scheme": "http",
+              "host": "www.netflix.com",
+              "path": "/profiles/icon"
+            },
+            {
+              "scheme": "https",
+              "host": "www.netflix.com",
+              "path": "/profiles/icon"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/extras/.*"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/extrasFeed"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/extrasFeed/.*"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/extrasfeed"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/extrasfeed/.*"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/remind-me/.*"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/account/signup"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/account/profiles"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/hook/.*"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/oAuth2Init"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/oAuth2Login"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/youraccount"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/youraccountlite"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/yourAccount"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/yourAccountLite"
+            }
+          ]
+        },
+        {
+          "actions": [
+            "android.intent.action.VIEW"
+          ],
+          "categories": [
+            "android.intent.category.DEFAULT",
+            "android.intent.category.BROWSABLE"
+          ],
+          "data": [
+            {
+              "scheme": "http",
+              "host": "www.netflix.com",
+              "path": null
+            },
+            {
+              "scheme": "https",
+              "host": "www.netflix.com",
+              "path": null
+            },
+            {
+              "scheme": "nflx",
+              "host": "www.netflix.com",
+              "path": null
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/Browse"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/browse"
+            }
+          ]
+        },
+        {
+          "actions": [
+            "android.intent.action.VIEW"
+          ],
+          "categories": [
+            "android.intent.category.DEFAULT",
+            "android.intent.category.BROWSABLE"
+          ],
+          "data": [
+            {
+              "scheme": "http",
+              "host": null,
+              "path": null
+            },
+            {
+              "scheme": "https",
+              "host": null,
+              "path": null
+            },
+            {
+              "scheme": null,
+              "host": "app.netflix.com",
+              "path": null
+            },
+            {
+              "scheme": null,
+              "host": "qr.netflix.com",
+              "path": null
+            },
+            {
+              "scheme": null,
+              "host": "games.netflix.com",
+              "path": null
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/connection/.*"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/C/.*"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/oAuth2Init"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/438c60eb"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/bU4kXkYg/.*"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/Browse"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/browse"
+            },
+            {
+              "scheme": null,
+              "host": null,
+              "path": "/invite/.*"
+            }
+          ]
+        },
+        {
+          "actions": [
+            "android.intent.action.VIEW"
+          ],
+          "categories": [
+            "android.intent.category.DEFAULT",
+            "android.intent.category.BROWSABLE"
+          ],
+          "data": [
+            {
+              "scheme": "http",
+              "host": "msg.netflix.com",
+              "path": null
+            },
+            {
+              "scheme": "https",
+              "host": "msg.netflix.com",
+              "path": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "o.kig",
+      "exported": "false",
+      "theme": "@style/APKTOOL_RENAMED_0x7f150536",
+      "screen_orientation": "",
+      "launch_mode": "singleTop",
+      "window_soft_input_mode": "",
+      "is_launcher": false,
+      "intent_filters": []
+    },
+    {
+      "name": "o.kic",
+      "exported": "false",
+      "theme": "@style/APKTOOL_RENAMED_0x7f150536",
+      "screen_orientation": "portrait",
+      "launch_mode": "singleTop",
+      "window_soft_input_mode": "",
+      "is_launcher": false,
+      "intent_filters": []
+    },
+    {
+      "name": "o.ljX",
+      "exported": "false",
+      "theme": "@style/APKTOOL_RENAMED_0x7f150543",
+      "screen_orientation": "",
+      "launch_mode": "",
+      "window_soft_input_mode": "",
+      "is_launcher": false,
+      "intent_filters": []
+    },
+    {
+      "name": "o.kEl",
+      "exported": "false",
+      "theme": "@style/APKTOOL_RENAMED_0x7f15053b",
+      "screen_orientation": "portrait",
+      "launch_mode": "singleTop",
+      "window_soft_input_mode": "",
+      "is_launcher": false,
+      "intent_filters": []
+    },
+    {
+      "name": "o.jNy",
+      "exported": "false",
+      "theme": "@style/APKTOOL_RENAMED_0x7f150535",
+      "screen_orientation": "portrait",
+      "launch_mode": "",
+      "window_soft_input_mode": "",
+      "is_launcher": false,
+      "intent_filters": []
+    },
+    {
+      "name": "o.kzM",
+      "exported": "false",
+      "theme": "@style/APKTOOL_RENAMED_0x7f15053c",
+      "screen_orientation": "",
+      "launch_mode": "singleTop",
+      "window_soft_input_mode": "",
+      "is_launcher": false,
+      "intent_filters": []
+    },
+    {
+      "name": "o.kBx",
+      "exported": "false",
+      "theme": "@style/APKTOOL_RENAMED_0x7f15048a",
+      "screen_orientation": "",
+      "launch_mode": "",
+      "window_soft_input_mode": "",
+      "is_launcher": false,
+      "intent_filters": []
+    },
+    {
+      "name": "o.kBO",
+      "exported": "false",
+      "theme": "@style/APKTOOL_RENAMED_0x7f15048a",
+      "screen_orientation": "portrait",
+      "launch_mode": "",
+      "window_soft_input_mode": "",
+      "is_launcher": false,
+      "intent_filters": []
+    },
+    {
+      "name": "o.kHQ",
+      "exported": "false",
+      "theme": "@style/APKTOOL_RENAMED_0x7f150535",
+      "screen_orientation": "",
+      "launch_mode": "singleTop",
+      "window_soft_input_mode": "",
+      "is_launcher": false,
+      "intent_filters": []
+    },
+    {
+      "name": "o.kHW",
+      "exported": "false",
+      "theme": "@style/APKTOOL_RENAMED_0x7f150535",
+      "screen_orientation": "portrait",
+      "launch_mode": "singleTop",
+      "window_soft_input_mode": "",
+      "is_launcher": false,
+      "intent_filters": []
+    },
+    {
+      "name": "o.kNP",
+      "exported": "false",
+      "theme": "@style/APKTOOL_RENAMED_0x7f150535",
+      "screen_orientation": "",
+      "launch_mode": "singleTop",
+      "window_soft_input_mode": "",
+      "is_launcher": false,
+      "intent_filters": []
+    },
+    {
+      "name": "o.kFP",
+      "exported": "false",
+      "theme": "@style/APKTOOL_RENAMED_0x7f150535",
+      "screen_orientation": "portrait",
+      "launch_mode": "singleTop",
+      "window_soft_input_mode": "",
+      "is_launcher": false,
+      "intent_filters": []
+    },
+    {
+      "name": "o.kFm",
+      "exported": "false",
+      "theme": "@style/APKTOOL_RENAMED_0x7f150535",
+      "screen_orientation": "portrait",
+      "launch_mode": "singleTop",
+      "window_soft_input_mode": "",
+      "is_launcher": false,
+      "intent_filters": []
+    },
+    {
+      "name": "o.kSo",
+      "exported": "false",
+      "theme": "@style/APKTOOL_RENAMED_0x7f15053b",
+      "screen_orientation": "",
+      "launch_mode": "singleTop",
+      "window_soft_input_mode": "",
+      "is_launcher": false,
+      "intent_filters": []
+    },
+    {
+      "name": "o.kSX",
+      "exported": "false",
+      "theme": "@style/APKTOOL_RENAMED_0x7f15053b",
+      "screen_orientation": "portrait",
+      "launch_mode": "singleTop",
+      "window_soft_input_mode": "",
+      "is_launcher": false,
+      "intent_filters": []
+    },
+    {
+      "name": "o.llO",
+      "exported": "false",
+      "theme": "@style/APKTOOL_RENAMED_0x7f150549",
+      "screen_orientation": "",
+      "launch_mode": "singleTop",
+      "window_soft_input_mode": "",
+      "is_launcher": false,
+      "intent_filters": []
+    },
+    {
+      "name": "o.lmC",
+      "exported": "false",
+      "theme": "@style/APKTOOL_RENAMED_0x7f150533",
+      "screen_orientation": "portrait",
+      "launch_mode": "",
+      "window_soft_input_mode": "",
+      "is_launcher": false,
+      "intent_filters": []
+    },
+    {
+      "name": "o.lrs",
+      "exported": "false",
+      "theme": "@style/APKTOOL_RENAMED_0x7f150535",
+      "screen_orientation": "portrait",
+      "launch_mode": "",
+      "window_soft_input_mode": "stateVisible",
+      "is_launcher": false,
+      "intent_filters": []
+    },
+    {
+      "name": "o.lrC",
+      "exported": "false",
+      "theme": "@style/APKTOOL_RENAMED_0x7f150535",
+      "screen_orientation": "",
+      "launch_mode": "",
+      "window_soft_input_mode": "stateVisible",
+      "is_launcher": false,
+      "intent_filters": []
+    },
+    {
+      "name": "o.lrz",
+      "exported": "false",
+      "theme": "",
+      "screen_orientation": "",
+      "launch_mode": "",
+      "window_soft_input_mode": "",
+      "is_launcher": false,
+      "intent_filters": []
+    },
+    {
+      "name": "o.lrD",
+      "exported": "false",
+      "theme": "",
+      "screen_orientation": "portrait",
+      "launch_mode": "",
+      "window_soft_input_mode": "",
+      "is_launcher": false,
+      "intent_filters": []
+    },
+    {
+      "name": "o.mJB",
+      "exported": "false",
+      "theme": "@style/APKTOOL_RENAMED_0x7f150535",
+      "screen_orientation": "",
+      "launch_mode": "",
+      "window_soft_input_mode": "",
+      "is_launcher": false,
+      "intent_filters": []
+    },
+    {
+      "name": "o.mJE",
+      "exported": "false",
+      "theme": "@style/APKTOOL_RENAMED_0x7f150535",
+      "screen_orientation": "portrait",
+      "launch_mode": "",
+      "window_soft_input_mode": "",
+      "is_launcher": false,
+      "intent_filters": []
+    },
+    {
+      "name": "o.lsF",
+      "exported": "false",
+      "theme": "@style/APKTOOL_RENAMED_0x7f150535",
+      "screen_orientation": "",
+      "launch_mode": "singleTask",
+      "window_soft_input_mode": "",
+      "is_launcher": false,
+      "intent_filters": []
+    },
+    {
+      "name": "o.lBk",
+      "exported": "false",
+      "theme": "@style/APKTOOL_RENAMED_0x7f150539",
+      "screen_orientation": "portrait",
+      "launch_mode": "singleTop",
+      "window_soft_input_mode": "",
+      "is_launcher": false,
+      "intent_filters": []
+    },
+    {
+      "name": "o.lVi",
+      "exported": "false",
+      "theme": "@style/APKTOOL_RENAMED_0x7f150539",
+      "screen_orientation": "portrait",
+      "launch_mode": "singleTop",
+      "window_soft_input_mode": "",
+      "is_launcher": false,
+      "intent_filters": []
+    },
+    {
+      "name": "o.lUE",
+      "exported": "false",
+      "theme": "@style/APKTOOL_RENAMED_0x7f150539",
+      "screen_orientation": "",
+      "launch_mode": "singleTop",
+      "window_soft_input_mode": "",
+      "is_launcher": false,
+      "intent_filters": []
+    },
+    {
+      "name": "o.lYr",
+      "exported": "false",
+      "theme": "@style/APKTOOL_RENAMED_0x7f150533",
+      "screen_orientation": "",
+      "launch_mode": "singleTop",
+      "window_soft_input_mode": "",
+      "is_launcher": false,
+      "intent_filters": []
+    },
+    {
+      "name": "o.lZc",
+      "exported": "false",
+      "theme": "@style/APKTOOL_RENAMED_0x7f150533",
+      "screen_orientation": "portrait",
+      "launch_mode": "singleTop",
+      "window_soft_input_mode": "",
+      "is_launcher": false,
+      "intent_filters": []
+    },
+    {
+      "name": "o.mbi",
+      "exported": "false",
+      "theme": "@style/APKTOOL_RENAMED_0x7f150535",
+      "screen_orientation": "",
+      "launch_mode": "",
+      "window_soft_input_mode": "",
+      "is_launcher": false,
+      "intent_filters": []
+    },
+    {
+      "name": "o.mbI",
+      "exported": "false",
+      "theme": "@style/APKTOOL_RENAMED_0x7f150535",
+      "screen_orientation": "portrait",
+      "launch_mode": "",
+      "window_soft_input_mode": "",
+      "is_launcher": false,
+      "intent_filters": []
+    },
+    {
+      "name": "o.mcO",
+      "exported": "false",
+      "theme": "@style/APKTOOL_RENAMED_0x7f150535",
+      "screen_orientation": "",
+      "launch_mode": "",
+      "window_soft_input_mode": "",
+      "is_launcher": false,
+      "intent_filters": []
+    },
+    {
+      "name": "o.mcY",
+      "exported": "false",
+      "theme": "@style/APKTOOL_RENAMED_0x7f150535",
+      "screen_orientation": "portrait",
+      "launch_mode": "",
+      "window_soft_input_mode": "",
+      "is_launcher": false,
+      "intent_filters": []
+    },
+    {
+      "name": "o.mdh",
+      "exported": "false",
+      "theme": "@style/APKTOOL_RENAMED_0x7f150535",
+      "screen_orientation": "",
+      "launch_mode": "",
+      "window_soft_input_mode": "",
+      "is_launcher": false,
+      "intent_filters": []
+    },
+    {
+      "name": "o.mcZ",
+      "exported": "false",
+      "theme": "@style/APKTOOL_RENAMED_0x7f15017c",
+      "screen_orientation": "",
+      "launch_mode": "",
+      "window_soft_input_mode": "",
+      "is_launcher": false,
+      "intent_filters": []
+    },
+    {
+      "name": "o.mhc",
+      "exported": "false",
+      "theme": "@style/APKTOOL_RENAMED_0x7f150533",
+      "screen_orientation": "portrait",
+      "launch_mode": "singleTop",
+      "window_soft_input_mode": "",
+      "is_launcher": false,
+      "intent_filters": []
+    },
+    {
+      "name": "o.mft",
+      "exported": "false",
+      "theme": "@style/APKTOOL_RENAMED_0x7f150533",
+      "screen_orientation": "",
+      "launch_mode": "singleTop",
+      "window_soft_input_mode": "",
+      "is_launcher": false,
+      "intent_filters": []
+    },
+    {
+      "name": "o.mUm",
+      "exported": "false",
+      "theme": "@style/APKTOOL_RENAMED_0x7f150537",
+      "screen_orientation": "portrait",
+      "launch_mode": "",
+      "window_soft_input_mode": "",
+      "is_launcher": false,
+      "intent_filters": []
+    },
+    {
+      "name": ".ui.player.PlayerActivity",
+      "exported": "false",
+      "theme": "@style/APKTOOL_RENAMED_0x7f150549",
+      "screen_orientation": "sensorLandscape",
+      "launch_mode": "singleTask",
+      "window_soft_input_mode": "",
+      "is_launcher": false,
+      "intent_filters": []
+    },
+    {
+      "name": "o.mmy",
+      "exported": "false",
+      "theme": "@style/APKTOOL_RENAMED_0x7f150549",
+      "screen_orientation": "",
+      "launch_mode": "singleTop",
+      "window_soft_input_mode": "",
+      "is_launcher": false,
+      "intent_filters": []
+    },
+    {
+      "name": "o.mIP",
+      "exported": "false",
+      "theme": "@style/APKTOOL_RENAMED_0x7f150533",
+      "screen_orientation": "",
+      "launch_mode": "",
+      "window_soft_input_mode": "",
+      "is_launcher": false,
+      "intent_filters": []
+    },
+    {
+      "name": "o.mGu",
+      "exported": "false",
+      "theme": "@style/APKTOOL_RENAMED_0x7f150533",
+      "screen_orientation": "portrait",
+      "launch_mode": "",
+      "window_soft_input_mode": "",
+      "is_launcher": false,
+      "intent_filters": []
+    },
+    {
+      "name": "o.mHh",
+      "exported": "false",
+      "theme": "@style/APKTOOL_RENAMED_0x7f150535",
+      "screen_orientation": "",
+      "launch_mode": "",
+      "window_soft_input_mode": "",
+      "is_launcher": false,
+      "intent_filters": []
+    },
+    {
+      "name": "o.mGp",
+      "exported": "false",
+      "theme": "@style/APKTOOL_RENAMED_0x7f150535",
+      "screen_orientation": "portrait",
+      "launch_mode": "",
+      "window_soft_input_mode": "",
+      "is_launcher": false,
+      "intent_filters": []
+    },
+    {
+      "name": "o.mGH",
+      "exported": "false",
+      "theme": "@style/APKTOOL_RENAMED_0x7f150535",
+      "screen_orientation": "",
+      "launch_mode": "",
+      "window_soft_input_mode": "",
+      "is_launcher": false,
+      "intent_filters": []
+    },
+    {
+      "name": "o.mGq",
+      "exported": "false",
+      "theme": "@style/APKTOOL_RENAMED_0x7f150535",
+      "screen_orientation": "portrait",
+      "launch_mode": "",
+      "window_soft_input_mode": "",
+      "is_launcher": false,
+      "intent_filters": []
+    },
+    {
+      "name": "o.mFr",
+      "exported": "false",
+      "theme": "@style/APKTOOL_RENAMED_0x7f15053c",
+      "screen_orientation": "",
+      "launch_mode": "",
+      "window_soft_input_mode": "",
+      "is_launcher": false,
+      "intent_filters": []
+    },
+    {
+      "name": "o.mGy",
+      "exported": "false",
+      "theme": "@style/APKTOOL_RENAMED_0x7f150535",
+      "screen_orientation": "",
+      "launch_mode": "",
+      "window_soft_input_mode": "",
+      "is_launcher": false,
+      "intent_filters": []
+    },
+    {
+      "name": "o.mGr",
+      "exported": "false",
+      "theme": "@style/APKTOOL_RENAMED_0x7f150535",
+      "screen_orientation": "portrait",
+      "launch_mode": "",
+      "window_soft_input_mode": "",
+      "is_launcher": false,
+      "intent_filters": []
+    },
+    {
+      "name": "o.mJT",
+      "exported": "false",
+      "theme": "@style/APKTOOL_RENAMED_0x7f150535",
+      "screen_orientation": "",
+      "launch_mode": "",
+      "window_soft_input_mode": "",
+      "is_launcher": false,
+      "intent_filters": []
+    },
+    {
+      "name": "o.mJW",
+      "exported": "false",
+      "theme": "@style/APKTOOL_RENAMED_0x7f150535",
+      "screen_orientation": "portrait",
+      "launch_mode": "",
+      "window_soft_input_mode": "",
+      "is_launcher": false,
+      "intent_filters": []
+    },
+    {
+      "name": "o.mEM",
+      "exported": "false",
+      "theme": "@style/APKTOOL_RENAMED_0x7f150535",
+      "screen_orientation": "",
+      "launch_mode": "",
+      "window_soft_input_mode": "stateVisible",
+      "is_launcher": false,
+      "intent_filters": []
+    },
+    {
+      "name": "o.mEL",
+      "exported": "false",
+      "theme": "@style/APKTOOL_RENAMED_0x7f150535",
+      "screen_orientation": "portrait",
+      "launch_mode": "",
+      "window_soft_input_mode": "",
+      "is_launcher": false,
+      "intent_filters": []
+    },
+    {
+      "name": "o.mKj",
+      "exported": "false",
+      "theme": "@style/APKTOOL_RENAMED_0x7f150535",
+      "screen_orientation": "",
+      "launch_mode": "",
+      "window_soft_input_mode": "",
+      "is_launcher": false,
+      "intent_filters": []
+    },
+    {
+      "name": "o.mKh",
+      "exported": "false",
+      "theme": "@style/APKTOOL_RENAMED_0x7f150535",
+      "screen_orientation": "portrait",
+      "launch_mode": "",
+      "window_soft_input_mode": "",
+      "is_launcher": false,
+      "intent_filters": []
+    },
+    {
+      "name": "o.mQU",
+      "exported": "false",
+      "theme": "@style/APKTOOL_RENAMED_0x7f15053d",
+      "screen_orientation": "",
+      "launch_mode": "singleTop",
+      "window_soft_input_mode": "stateAlwaysHidden|adjustResize",
+      "is_launcher": false,
+      "intent_filters": [
+        {
+          "actions": [
+            "android.intent.action.SEARCH"
+          ],
+          "categories": [],
+          "data": []
+        }
+      ]
+    },
+    {
+      "name": "o.mQP",
+      "exported": "false",
+      "theme": "@style/APKTOOL_RENAMED_0x7f15053d",
+      "screen_orientation": "portrait",
+      "launch_mode": "singleTop",
+      "window_soft_input_mode": "stateAlwaysHidden|adjustResize",
+      "is_launcher": false,
+      "intent_filters": [
+        {
+          "actions": [
+            "android.intent.action.SEARCH"
+          ],
+          "categories": [],
+          "data": []
+        }
+      ]
+    },
+    {
+      "name": "o.ncG",
+      "exported": "false",
+      "theme": "",
+      "screen_orientation": "",
+      "launch_mode": "singleTop",
+      "window_soft_input_mode": "",
+      "is_launcher": false,
+      "intent_filters": []
+    },
+    {
+      "name": "o.ncI",
+      "exported": "false",
+      "theme": "",
+      "screen_orientation": "portrait",
+      "launch_mode": "singleTop",
+      "window_soft_input_mode": "",
+      "is_launcher": false,
+      "intent_filters": []
+    },
+    {
+      "name": "o.neh",
+      "exported": "false",
+      "theme": "",
+      "screen_orientation": "",
+      "launch_mode": "singleTop",
+      "window_soft_input_mode": "",
+      "is_launcher": false,
+      "intent_filters": []
+    },
+    {
+      "name": "o.nek",
+      "exported": "false",
+      "theme": "",
+      "screen_orientation": "portrait",
+      "launch_mode": "singleTop",
+      "window_soft_input_mode": "",
+      "is_launcher": false,
+      "intent_filters": []
+    },
+    {
+      "name": "o.nmV",
+      "exported": "false",
+      "theme": "",
+      "screen_orientation": "",
+      "launch_mode": "singleTop",
+      "window_soft_input_mode": "",
+      "is_launcher": false,
+      "intent_filters": []
+    },
+    {
+      "name": ".ui.launch.LaunchActivity",
+      "exported": "false",
+      "theme": "@style/APKTOOL_RENAMED_0x7f150535",
+      "screen_orientation": "",
+      "launch_mode": "singleTask",
+      "window_soft_input_mode": "",
+      "is_launcher": false,
+      "intent_filters": []
+    },
+    {
+      "name": "o.llF",
+      "exported": "false",
+      "theme": "@style/APKTOOL_RENAMED_0x7f150535",
+      "screen_orientation": "",
+      "launch_mode": "",
+      "window_soft_input_mode": "",
+      "is_launcher": false,
+      "intent_filters": []
+    },
+    {
+      "name": "o.llG",
+      "exported": "false",
+      "theme": "@style/APKTOOL_RENAMED_0x7f150535",
+      "screen_orientation": "portrait",
+      "launch_mode": "",
+      "window_soft_input_mode": "",
+      "is_launcher": false,
+      "intent_filters": []
+    },
+    {
+      "name": "o.nnc",
+      "exported": "false",
+      "theme": "",
+      "screen_orientation": "",
+      "launch_mode": "",
+      "window_soft_input_mode": "",
+      "is_launcher": false,
+      "intent_filters": []
+    },
+    {
+      "name": "o.ncb",
+      "exported": "false",
+      "theme": "@style/APKTOOL_RENAMED_0x7f150535",
+      "screen_orientation": "",
+      "launch_mode": "",
+      "window_soft_input_mode": "",
+      "is_launcher": false,
+      "intent_filters": []
+    },
+    {
+      "name": "o.nco",
+      "exported": "false",
+      "theme": "",
+      "screen_orientation": "portrait",
+      "launch_mode": "",
+      "window_soft_input_mode": "",
+      "is_launcher": false,
+      "intent_filters": []
+    },
+    {
+      "name": ".ui.diagnosis.DiagnosisActivity",
+      "exported": "false",
+      "theme": "@style/APKTOOL_RENAMED_0x7f150537",
+      "screen_orientation": "",
+      "launch_mode": "",
+      "window_soft_input_mode": "",
+      "is_launcher": false,
+      "intent_filters": []
+    },
+    {
+      "name": "o.kqM",
+      "exported": "false",
+      "theme": "@style/APKTOOL_RENAMED_0x7f150537",
+      "screen_orientation": "portrait",
+      "launch_mode": "",
+      "window_soft_input_mode": "",
+      "is_launcher": false,
+      "intent_filters": []
+    },
+    {
+      "name": "o.mUL",
+      "exported": "false",
+      "theme": "@style/APKTOOL_RENAMED_0x7f150537",
+      "screen_orientation": "",
+      "launch_mode": "",
+      "window_soft_input_mode": "",
+      "is_launcher": false,
+      "intent_filters": []
+    },
+    {
+      "name": "o.mUN",
+      "exported": "false",
+      "theme": "@style/APKTOOL_RENAMED_0x7f150537",
+      "screen_orientation": "portrait",
+      "launch_mode": "",
+      "window_soft_input_mode": "",
+      "is_launcher": false,
+      "intent_filters": []
+    },
+    {
+      "name": "o.mUF",
+      "exported": "false",
+      "theme": "@style/APKTOOL_RENAMED_0x7f150537",
+      "screen_orientation": "",
+      "launch_mode": "",
+      "window_soft_input_mode": "",
+      "is_launcher": false,
+      "intent_filters": []
+    },
+    {
+      "name": "o.mUO",
+      "exported": "false",
+      "theme": "@style/APKTOOL_RENAMED_0x7f150537",
+      "screen_orientation": "portrait",
+      "launch_mode": "",
+      "window_soft_input_mode": "",
+      "is_launcher": false,
+      "intent_filters": []
+    },
+    {
+      "name": "o.mUD",
+      "exported": "false",
+      "theme": "@style/APKTOOL_RENAMED_0x7f150537",
+      "screen_orientation": "",
+      "launch_mode": "",
+      "window_soft_input_mode": "",
+      "is_launcher": false,
+      "intent_filters": []
+    },
+    {
+      "name": "o.mUG",
+      "exported": "false",
+      "theme": "@style/APKTOOL_RENAMED_0x7f150537",
+      "screen_orientation": "portrait",
+      "launch_mode": "",
+      "window_soft_input_mode": "",
+      "is_launcher": false,
+      "intent_filters": []
+    },
+    {
+      "name": "o.nbI",
+      "exported": "false",
+      "theme": "",
+      "screen_orientation": "portrait",
+      "launch_mode": "",
+      "window_soft_input_mode": "",
+      "is_launcher": false,
+      "intent_filters": []
+    },
+    {
+      "name": "o.nbM",
+      "exported": "false",
+      "theme": "",
+      "screen_orientation": "",
+      "launch_mode": "",
+      "window_soft_input_mode": "",
+      "is_launcher": false,
+      "intent_filters": []
+    },
+    {
+      "name": "o.nbL",
+      "exported": "false",
+      "theme": "@style/APKTOOL_RENAMED_0x7f150541",
+      "screen_orientation": "",
+      "launch_mode": "",
+      "window_soft_input_mode": "",
+      "is_launcher": false,
+      "intent_filters": []
+    },
+    {
+      "name": "o.blA",
+      "exported": "false",
+      "theme": "@style/APKTOOL_RENAMED_0x7f15048b",
+      "screen_orientation": "",
+      "launch_mode": "",
+      "window_soft_input_mode": "",
+      "is_launcher": false,
+      "intent_filters": []
+    },
+    {
+      "name": "o.blS",
+      "exported": "false",
+      "theme": "@style/APKTOOL_RENAMED_0x7f15048b",
+      "screen_orientation": "",
+      "launch_mode": "",
+      "window_soft_input_mode": "",
+      "is_launcher": false,
+      "intent_filters": []
+    },
+    {
+      "name": "com.google.android.gms.auth.api.signin.internal.SignInHubActivity",
+      "exported": "false",
+      "theme": "@android:style/Theme.Translucent.NoTitleBar",
+      "screen_orientation": "",
+      "launch_mode": "",
+      "window_soft_input_mode": "",
+      "is_launcher": false,
+      "intent_filters": []
+    },
+    {
+      "name": "o.bhz",
+      "exported": "false",
+      "theme": "@android:style/Theme.Translucent.NoTitleBar",
+      "screen_orientation": "",
+      "launch_mode": "standard",
+      "window_soft_input_mode": "",
+      "is_launcher": false,
+      "intent_filters": []
+    },
+    {
+      "name": "androidx.compose.ui.tooling.PreviewActivity",
+      "exported": "true",
+      "theme": "",
+      "screen_orientation": "",
+      "launch_mode": "",
+      "window_soft_input_mode": "",
+      "is_launcher": false,
+      "intent_filters": []
+    },
+    {
+      "name": "com.google.android.gms.common.api.GoogleApiActivity",
+      "exported": "false",
+      "theme": "@android:style/Theme.Translucent.NoTitleBar",
+      "screen_orientation": "",
+      "launch_mode": "",
+      "window_soft_input_mode": "",
+      "is_launcher": false,
+      "intent_filters": []
+    },
+    {
+      "name": "o.dfZ",
+      "exported": "false",
+      "theme": "@style/APKTOOL_RENAMED_0x7f150547",
+      "screen_orientation": "",
+      "launch_mode": "",
+      "window_soft_input_mode": "",
+      "is_launcher": false,
+      "intent_filters": []
+    },
+    {
+      "name": "o.dhs",
+      "exported": "false",
+      "theme": "@style/APKTOOL_RENAMED_0x7f150548",
+      "screen_orientation": "",
+      "launch_mode": "",
+      "window_soft_input_mode": "",
+      "is_launcher": false,
+      "intent_filters": []
+    }
+  ],
+  "services": [
+    {
+      "name": "o.lKJ",
+      "exported": "false",
+      "intent_filters": []
+    },
+    {
+      "name": "o.lEk",
+      "exported": "false",
+      "intent_filters": []
+    },
+    {
+      "name": "o.iRm",
+      "exported": "false",
+      "intent_filters": []
+    },
+    {
+      "name": "o.iVJ",
+      "exported": "false",
+      "intent_filters": [
+        {
+          "actions": [
+            "com.google.firebase.MESSAGING_EVENT"
+          ],
+          "categories": [],
+          "data": []
+        }
+      ]
+    },
+    {
+      "name": ".service.job.NetflixJobService",
+      "exported": "false",
+      "intent_filters": []
+    },
+    {
+      "name": "o.jcf",
+      "exported": "false",
+      "intent_filters": []
+    },
+    {
+      "name": ".det.impl.service.DETService",
+      "exported": "true",
+      "intent_filters": [
+        {
+          "actions": [
+            "com.netflix.mediaclient.intent.action.DET_SERVICE"
+          ],
+          "categories": [],
+          "data": []
+        }
+      ]
+    },
+    {
+      "name": "o.bSU",
+      "exported": "false",
+      "intent_filters": []
+    },
+    {
+      "name": "o.czj",
+      "exported": "false",
+      "intent_filters": []
+    },
+    {
+      "name": "androidx.camera.core.impl.MetadataHolderService",
+      "exported": "false",
+      "intent_filters": []
+    },
+    {
+      "name": "o.blj",
+      "exported": "false",
+      "intent_filters": []
+    },
+    {
+      "name": "o.dIo",
+      "exported": "false",
+      "intent_filters": [
+        {
+          "actions": [
+            "com.google.firebase.MESSAGING_EVENT"
+          ],
+          "categories": [],
+          "data": []
+        }
+      ]
+    },
+    {
+      "name": "com.google.firebase.components.ComponentDiscoveryService",
+      "exported": "false",
+      "intent_filters": []
+    },
+    {
+      "name": "com.google.android.gms.auth.api.signin.RevocationBoundService",
+      "exported": "true",
+      "intent_filters": []
+    },
+    {
+      "name": "androidx.work.impl.background.systemjob.SystemJobService",
+      "exported": "true",
+      "intent_filters": []
+    },
+    {
+      "name": "o.bIH",
+      "exported": "false",
+      "intent_filters": []
+    },
+    {
+      "name": "com.google.android.datatransport.runtime.backends.TransportBackendDiscovery",
+      "exported": "false",
+      "intent_filters": []
+    },
+    {
+      "name": "com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService",
+      "exported": "false",
+      "intent_filters": []
+    },
+    {
+      "name": "com.netflix.partner.PService",
+      "exported": "true",
+      "intent_filters": [
+        {
+          "actions": [
+            "com.netflix.intent.action.BIND"
+          ],
+          "categories": [],
+          "data": []
+        }
+      ]
+    },
+    {
+      "name": "o.dNF",
+      "exported": "false",
+      "intent_filters": []
+    }
+  ],
+  "receivers": [
+    {
+      "name": "o.lJz",
+      "exported": "false"
+    },
+    {
+      "name": ".android.sharing.impl.ShareReceiver",
+      "exported": "true"
+    },
+    {
+      "name": "o.gAa",
+      "exported": "false"
+    },
+    {
+      "name": ".service.pushnotification.NotificationReceiver",
+      "exported": "false"
+    },
+    {
+      "name": ".service.user.PartnerReceiver",
+      "exported": "true"
+    },
+    {
+      "name": "o.kOQ",
+      "exported": "false"
+    },
+    {
+      "name": "com.google.android.gms.cast.framework.media.MediaIntentReceiver",
+      "exported": "false"
+    },
+    {
+      "name": "com.google.firebase.iid.FirebaseInstanceIdReceiver",
+      "exported": "true"
+    },
+    {
+      "name": "androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver",
+      "exported": "false"
+    },
+    {
+      "name": "androidx.work.impl.background.systemalarm.RescheduleReceiver",
+      "exported": "false"
+    },
+    {
+      "name": "androidx.work.impl.diagnostics.DiagnosticsReceiver",
+      "exported": "true"
+    },
+    {
+      "name": "androidx.profileinstaller.ProfileInstallReceiver",
+      "exported": "true"
+    },
+    {
+      "name": "androidx.tracing.perfetto.TracingReceiver",
+      "exported": "true"
+    },
+    {
+      "name": "o.bMR",
+      "exported": "false"
+    },
+    {
+      "name": "o.cwR",
+      "exported": "false"
+    }
+  ]
+}

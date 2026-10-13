@@ -1,0 +1,54 @@
+# ==============================================================================
+# Android Jetpack Compose App .gitignore
+# ==============================================================================
+
+# Gradle and Build Output
+.gradle/
+**/.gradle/
+build/
+**/build/
+*.apk
+*.aab
+*.ap_
+*.class
+
+# Keep Gradle Wrapper JAR
+*.jar
+!gradle/wrapper/gradle-wrapper.jar
+!**/gradle/wrapper/gradle-wrapper.jar
+
+# Local machine specific SDK & environment configuration (CRITICAL)
+local.properties
+**/local.properties
+.bundle/
+
+# Android Studio / IntelliJ IDEA
+.idea/
+**/.idea/
+*.iml
+**/*.iml
+*.iws
+*.ipr
+out/
+.navigation/
+captures/
+.externalNativeBuild/
+cmake/
+
+# Kotlin cache
+.kotlin/
+**/.kotlin/
+
+# Redundant duplicate wrapper files in app module
+app/gradlew
+app/gradlew.bat
+app/gradle/
+
+# OS and Editor artifacts
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.bak
+*~
+.vscode/

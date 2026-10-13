@@ -1,0 +1,177 @@
+{
+  "package_name": "com.netflix.mediaclient",
+  "app_name": "Netflix",
+  "version_name": "9.87.1 build 9 74620",
+  "version_code": "74620",
+  "min_sdk": "28",
+  "target_sdk": "37",
+  "splits_count": 20,
+  "split_inventory": [
+    {
+      "filename": "com.netflix.mediaclient.apk",
+      "size_bytes": 30743676,
+      "size_mb": 29.32,
+      "type": "base"
+    },
+    {
+      "filename": "config.arm64_v8a.apk",
+      "size_bytes": 24143175,
+      "size_mb": 23.02,
+      "type": "arm64_v8a"
+    },
+    {
+      "filename": "config.zh.apk",
+      "size_bytes": 1483521,
+      "size_mb": 1.41,
+      "type": "zh"
+    },
+    {
+      "filename": "config.xxhdpi.apk",
+      "size_bytes": 1287489,
+      "size_mb": 1.23,
+      "type": "xxhdpi"
+    },
+    {
+      "filename": "config.fr.apk",
+      "size_bytes": 897553,
+      "size_mb": 0.86,
+      "type": "fr"
+    },
+    {
+      "filename": "config.pt.apk",
+      "size_bytes": 893457,
+      "size_mb": 0.85,
+      "type": "pt"
+    },
+    {
+      "filename": "config.es.apk",
+      "size_bytes": 881109,
+      "size_mb": 0.84,
+      "type": "es"
+    },
+    {
+      "filename": "config.en.apk",
+      "size_bytes": 815513,
+      "size_mb": 0.78,
+      "type": "en"
+    },
+    {
+      "filename": "config.th.apk",
+      "size_bytes": 766421,
+      "size_mb": 0.73,
+      "type": "th"
+    },
+    {
+      "filename": "config.hi.apk",
+      "size_bytes": 733653,
+      "size_mb": 0.7,
+      "type": "hi"
+    },
+    {
+      "filename": "config.ja.apk",
+      "size_bytes": 713173,
+      "size_mb": 0.68,
+      "type": "ja"
+    },
+    {
+      "filename": "config.in.apk",
+      "size_bytes": 688657,
+      "size_mb": 0.66,
+      "type": "in"
+    },
+    {
+      "filename": "config.ru.apk",
+      "size_bytes": 647637,
+      "size_mb": 0.62,
+      "type": "ru"
+    },
+    {
+      "filename": "config.ko.apk",
+      "size_bytes": 643601,
+      "size_mb": 0.61,
+      "type": "ko"
+    },
+    {
+      "filename": "config.ar.apk",
+      "size_bytes": 639445,
+      "size_mb": 0.61,
+      "type": "ar"
+    },
+    {
+      "filename": "config.vi.apk",
+      "size_bytes": 582101,
+      "size_mb": 0.56,
+      "type": "vi"
+    },
+    {
+      "filename": "config.de.apk",
+      "size_bytes": 541141,
+      "size_mb": 0.52,
+      "type": "de"
+    },
+    {
+      "filename": "config.tr.apk",
+      "size_bytes": 537045,
+      "size_mb": 0.51,
+      "type": "tr"
+    },
+    {
+      "filename": "config.it.apk",
+      "size_bytes": 528853,
+      "size_mb": 0.5,
+      "type": "it"
+    },
+    {
+      "filename": "config.my.apk",
+      "size_bytes": 74137,
+      "size_mb": 0.07,
+      "type": "my"
+    }
+  ],
+  "permissions_count": 32,
+  "categorized_permissions": {
+    "network": [
+      "android.permission.ACCESS_NETWORK_STATE",
+      "android.permission.ACCESS_WIFI_STATE",
+      "android.permission.CHANGE_WIFI_MULTICAST_STATE",
+      "android.permission.NEARBY_WIFI_DEVICES",
+      "android.permission.ACCESS_LOCAL_NETWORK",
+      "android.permission.INTERNET"
+    ],
+    "media_and_audio": [
+      "android.permission.RECORD_AUDIO",
+      "android.permission.MODIFY_AUDIO_SETTINGS",
+      "android.permission.CAMERA",
+      "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK"
+    ],
+    "system_and_services": [
+      "android.permission.WAKE_LOCK",
+      "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+      "android.permission.RUN_USER_INITIATED_JOBS",
+      "android.permission.FOREGROUND_SERVICE",
+      "android.permission.FOREGROUND_SERVICE_CONNECTED_DEVICE",
+      "android.permission.FOREGROUND_SERVICE_MICROPHONE",
+      "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK",
+      "android.permission.FOREGROUND_SERVICE_DATA_SYNC",
+      "com.google.android.providers.gsf.permission.READ_GSERVICES",
+      "android.permission.RECEIVE_BOOT_COMPLETED"
+    ],
+    "notifications": [
+      "android.permission.POST_NOTIFICATIONS",
+      "android.permission.POST_PROMOTED_NOTIFICATIONS"
+    ],
+    "bluetooth": [
+      "android.permission.BLUETOOTH"
+    ],
+    "storage": [
+      "android.permission.WRITE_EXTERNAL_STORAGE",
+      "android.permission.READ_EXTERNAL_STORAGE"
+    ],
+    "custom_netflix": [
+      "com.netflix.partner.activation.permission.CHANNEL_ID",
+      "com.netflix.mediaclient.permission.DET",
+      "com.netflix.nfgsdk.permission.ngpstore",
+      "com.netflix.mediaclient.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+    ]
+  }
+}

@@ -1,0 +1,93 @@
+# ==============================================================================
+# Netflix Reverse-Engineering & Jetpack Compose Recreation .gitignore
+# ==============================================================================
+
+# ------------------------------------------------------------------------------
+# 1. Unrelated Subprojects & External Clones
+# ------------------------------------------------------------------------------
+mjland-web/
+
+# ------------------------------------------------------------------------------
+# 2. Proprietary APKs, Splits & Dalvik Bytecode (Clean-Room / Copyright Safety)
+# ------------------------------------------------------------------------------
+*.xapk
+*.apk
+*.aab
+*.ap_
+*.dex
+Netflix_*_APKPure/
+Netflix_*_APKPure.xapk
+
+# Intermediate APKTool disassembly containing Dalvik bytecode and raw APK assets
+extraction_output/apktool_decoded/
+
+# ------------------------------------------------------------------------------
+# 3. Android & Gradle Build Artifacts
+# ------------------------------------------------------------------------------
+build/
+**/build/
+*.class
+*.jar
+*.aar
+!gradle/wrapper/gradle-wrapper.jar
+!**/gradle/wrapper/gradle-wrapper.jar
+
+# Gradle daemon, cache, and system files
+.gradle/
+**/.gradle/
+
+# Kotlin compiler daemon & tooling cache
+.kotlin/
+**/.kotlin/
+
+# Android Studio / IntelliJ IDEA configuration & cache
+.idea/
+**/.idea/
+*.iml
+**/*.iml
+*.iws
+*.ipr
+out/
+.navigation/
+captures/
+.externalNativeBuild/
+cmake/
+
+# Local machine specific Android SDK & environment configuration (CRITICAL)
+local.properties
+**/local.properties
+.bundle/
+
+# Redundant duplicate wrapper files in app submodule
+generated_app/app/gradlew
+generated_app/app/gradlew.bat
+generated_app/app/gradle/
+
+# ------------------------------------------------------------------------------
+# 4. Python Bytecode & Virtual Environments
+# ------------------------------------------------------------------------------
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.pytest_cache/
+
+# ------------------------------------------------------------------------------
+# 5. Agent Orchestration Metadata & Scratch Files
+# ------------------------------------------------------------------------------
+.agents/
+ORIGINAL_REQUEST.md
+
+# ------------------------------------------------------------------------------
+# 6. OS & Editor Artifacts
+# ------------------------------------------------------------------------------
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.bak
+*~
+.vscode/

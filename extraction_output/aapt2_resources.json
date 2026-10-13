@@ -1,0 +1,215 @@
+{
+  "aapt2_resource_counts": {
+    "anim": 43,
+    "animator": 17,
+    "array": 12,
+    "attr": 1352,
+    "bool": 9,
+    "color": 448,
+    "dimen": 879,
+    "drawable": 4551,
+    "font": 12,
+    "id": 1581,
+    "integer": 45,
+    "interpolator": 13,
+    "layout": 705,
+    "menu": 4,
+    "mipmap": 2,
+    "raw": 13,
+    "string": 3834,
+    "style": 744,
+    "xml": 7
+  },
+  "custom_attributes_found": [
+    "aroRibbonCategoryTextColor",
+    "aroRibbonPillsTextColor",
+    "aroRibbonSubCategoryTextColor",
+    "nb_borderlessRipple",
+    "nb_buttonColor",
+    "nb_cornerRadius",
+    "nb_iconCentered",
+    "nb_iconColor",
+    "nb_iconSize",
+    "nb_rippleColor",
+    "nb_strokeColor",
+    "nb_strokeWidth",
+    "nb_textColor"
+  ],
+  "netflix_button_style_definitions_count": 68,
+  "button_metric_tokens": {
+    "discovered_corner_radii": [
+      "0.0dp",
+      "16.0dp",
+      "2.0dp",
+      "3.0dp",
+      "30.0dp",
+      "4.0dp",
+      "8.0dp",
+      "@dimen/APKTOOL_RENAMED_0x7f0702da",
+      "@dimen/APKTOOL_RENAMED_0x7f0702f7"
+    ],
+    "discovered_icon_sizes": [
+      "18.0dp",
+      "24.0dp",
+      "32.0dp",
+      "34.0dp",
+      "@dimen/APKTOOL_RENAMED_0x7f070052"
+    ],
+    "discovered_ripple_colors": [
+      "#23485e",
+      "#484848",
+      "#4d4d4d",
+      "#9e9d9d",
+      "#b3b3b3",
+      "#cccccc",
+      "@color/APKTOOL_RENAMED_0x7f06003f",
+      "@color/APKTOOL_RENAMED_0x7f0600d2",
+      "@color/APKTOOL_RENAMED_0x7f0600d5",
+      "@color/APKTOOL_RENAMED_0x7f060910",
+      "@color/APKTOOL_RENAMED_0x7f0609a7",
+      "@color/APKTOOL_RENAMED_0x7f060a00",
+      "@color/APKTOOL_RENAMED_0x7f060a08",
+      "@color/APKTOOL_RENAMED_0x7f060a1d"
+    ]
+  },
+  "sample_button_styles": [
+    {
+      "style_name": "APKTOOL_RENAMED_0x7f150011",
+      "parent": "",
+      "button_attributes": {
+        "nb_borderlessRipple": "true",
+        "nb_rippleColor": "@color/APKTOOL_RENAMED_0x7f060a08",
+        "nb_textColor": "@color/APKTOOL_RENAMED_0x7f060a1d"
+      }
+    },
+    {
+      "style_name": "APKTOOL_RENAMED_0x7f150012",
+      "parent": "@style/APKTOOL_RENAMED_0x7f150011",
+      "button_attributes": {
+        "nb_borderlessRipple": "false",
+        "nb_buttonColor": "@color/APKTOOL_RENAMED_0x7f060a02",
+        "nb_cornerRadius": "8.0dp",
+        "nb_strokeColor": "@color/APKTOOL_RENAMED_0x7f0609ff",
+        "nb_strokeWidth": "1.0dp"
+      }
+    },
+    {
+      "style_name": "APKTOOL_RENAMED_0x7f150013",
+      "parent": "",
+      "button_attributes": {
+        "nb_borderlessRipple": "true",
+        "nb_rippleColor": "@color/APKTOOL_RENAMED_0x7f060a08",
+        "nb_textColor": "?aroRibbonPillsTextColor"
+      }
+    },
+    {
+      "style_name": "APKTOOL_RENAMED_0x7f150014",
+      "parent": "@style/APKTOOL_RENAMED_0x7f150013",
+      "button_attributes": {
+        "nb_borderlessRipple": "false",
+        "nb_cornerRadius": "16.0dp",
+        "nb_strokeColor": "?aroRibbonPillsTextColor",
+        "nb_strokeWidth": "1.0dp"
+      }
+    },
+    {
+      "style_name": "APKTOOL_RENAMED_0x7f150146",
+      "parent": "@style/APKTOOL_RENAMED_0x7f15023c",
+      "button_attributes": {
+        "nb_cornerRadius": "4.0dp",
+        "nb_iconColor": "?android:textColorPrimary",
+        "nb_rippleColor": "#9e9d9d",
+        "nb_textColor": "#808080"
+      }
+    },
+    {
+      "style_name": "APKTOOL_RENAMED_0x7f150147",
+      "parent": "@style/APKTOOL_RENAMED_0x7f150204",
+      "button_attributes": {
+        "nb_buttonColor": "@color/APKTOOL_RENAMED_0x7f06007f",
+        "nb_strokeColor": "@color/APKTOOL_RENAMED_0x7f060a0e",
+        "nb_textColor": "@color/APKTOOL_RENAMED_0x7f060080"
+      }
+    },
+    {
+      "style_name": "APKTOOL_RENAMED_0x7f150188",
+      "parent": "",
+      "button_attributes": {
+        "nb_buttonColor": "@color/APKTOOL_RENAMED_0x7f06099f",
+        "nb_cornerRadius": "3.0dp",
+        "nb_rippleColor": "@color/APKTOOL_RENAMED_0x7f060a00",
+        "nb_strokeColor": "@color/APKTOOL_RENAMED_0x7f06099f",
+        "nb_textColor": "@color/APKTOOL_RENAMED_0x7f060a1d"
+      }
+    },
+    {
+      "style_name": "APKTOOL_RENAMED_0x7f150189",
+      "parent": "@style/APKTOOL_RENAMED_0x7f150264",
+      "button_attributes": {
+        "nb_buttonColor": "@color/APKTOOL_RENAMED_0x7f060599",
+        "nb_strokeColor": "@color/APKTOOL_RENAMED_0x7f060599",
+        "nb_textColor": "@color/APKTOOL_RENAMED_0x7f060127"
+      }
+    },
+    {
+      "style_name": "APKTOOL_RENAMED_0x7f15018f",
+      "parent": "@style/APKTOOL_RENAMED_0x7f15018e",
+      "button_attributes": {
+        "nb_cornerRadius": "@dimen/APKTOOL_RENAMED_0x7f0702da",
+        "nb_iconColor": "@color/APKTOOL_RENAMED_0x7f0602b8",
+        "nb_textColor": "@color/APKTOOL_RENAMED_0x7f0602b8"
+      }
+    },
+    {
+      "style_name": "APKTOOL_RENAMED_0x7f150191",
+      "parent": "@style/APKTOOL_RENAMED_0x7f15081a",
+      "button_attributes": {
+        "nb_buttonColor": "@color/APKTOOL_RENAMED_0x7f060968",
+        "nb_cornerRadius": "2.0dp",
+        "nb_iconCentered": "true",
+        "nb_iconSize": "24.0dp",
+        "nb_rippleColor": "@color/APKTOOL_RENAMED_0x7f060a1d",
+        "nb_strokeColor": "@color/APKTOOL_RENAMED_0x7f06096a",
+        "nb_strokeWidth": "1.0dp",
+        "nb_textColor": "@color/APKTOOL_RENAMED_0x7f06096b"
+      }
+    },
+    {
+      "style_name": "APKTOOL_RENAMED_0x7f150195",
+      "parent": "@style/APKTOOL_RENAMED_0x7f150215",
+      "button_attributes": {
+        "nb_textColor": "@color/APKTOOL_RENAMED_0x7f0600d8"
+      }
+    },
+    {
+      "style_name": "APKTOOL_RENAMED_0x7f150196",
+      "parent": "@style/APKTOOL_RENAMED_0x7f15022c",
+      "button_attributes": {
+        "nb_buttonColor": "?uma_view_collections_primary_cta_background",
+        "nb_textColor": "@color/APKTOOL_RENAMED_0x7f060a1d"
+      }
+    },
+    {
+      "style_name": "APKTOOL_RENAMED_0x7f150199",
+      "parent": "@style/APKTOOL_RENAMED_0x7f150215",
+      "button_attributes": {
+        "nb_borderlessRipple": "true",
+        "nb_textColor": "@color/APKTOOL_RENAMED_0x7f060033"
+      }
+    },
+    {
+      "style_name": "APKTOOL_RENAMED_0x7f15019a",
+      "parent": "@style/APKTOOL_RENAMED_0x7f150215",
+      "button_attributes": {
+        "nb_textColor": "@color/APKTOOL_RENAMED_0x7f0600d8"
+      }
+    },
+    {
+      "style_name": "APKTOOL_RENAMED_0x7f15019b",
+      "parent": "@style/APKTOOL_RENAMED_0x7f150215",
+      "button_attributes": {
+        "nb_textColor": "@color/APKTOOL_RENAMED_0x7f0600ce"
+      }
+    }
+  ]
+}
